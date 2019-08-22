@@ -1,17 +1,17 @@
 # CunyFirstClassesRestfulAPI
-A Restful API for retrieving the courses provided at each CUNY college. The database is a Firebase Realtime Database.
+A Restful API for retrieving the subjects provided at each CUNY college. The database is a Firebase Realtime Database.
 
 All data is viewed as json objects.
 
 ## End-points
 
 ### Colleges
-The base end-point is "colleges". It returns all the courses provided for ALL the CUNY colleges.
+The base end-point is "colleges". It returns all the subjects provided for ALL the CUNY colleges.
 ex: "https://restful-java-87120.firebaseio.com/colleges.json?print=pretty"
 
 
 ### Colleges/{school}
-The next end-point is "colleges/{college name}". This name MUST be one of the colleges shown with the previous command. It returns all the courses provided for THIS CUNY college.
+The next end-point is "colleges/{college name}". This name MUST be one of the colleges shown with the previous command. It returns all the subjects provided for THIS CUNY college.
 ex: "https://restful-java-87120.firebaseio.com/colleges/york-college.json?print=pretty"
 
 
