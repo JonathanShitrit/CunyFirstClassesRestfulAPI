@@ -11,11 +11,11 @@ ex: "https://restful-java-87120.firebaseio.com/colleges.json?print=pretty"
 
 
 ### Colleges/{school}
-The next end-point is a specified college name. This name MUST be the same college name that is shown with the previous command. It returns all the courses provided for THIS CUNY colleges.
+The next end-point is "colleges/{college name}". This name MUST be one of the colleges shown with the previous command. It returns all the courses provided for THIS CUNY college.
 ex: "https://restful-java-87120.firebaseio.com/colleges/york-college.json?print=pretty"
 
 
+*Specifying .json returns the data as json objects.*
+*Specifying print=pretty returns the data in a human-readable format.*
 
-*Specifying print=pretty returns the data in a human-readable format.
-
-You can read more about using the firebase realtime database on their documentation here: https://firebase.google.com/docs/database/rest/retrieve-data
+You can read more about using a Restful API with Firebase Realtime Database on their documentation here: https://firebase.google.com/docs/database/rest/retrieve-data
