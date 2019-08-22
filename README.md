@@ -15,7 +15,7 @@ The next end-point is "colleges/{college name}". This name MUST be one of the co
 ex: "https://restful-java-87120.firebaseio.com/colleges/york-college.json?print=pretty"
 
 
-*Specifying .json returns the data as json objects.*
+*Specifying .json returns the data as json objects.* \n
 *Specifying print=pretty returns the data in a human-readable format.*
 
 You can read more about using a Restful API with Firebase Realtime Database on their documentation here: https://firebase.google.com/docs/database/rest/retrieve-data
